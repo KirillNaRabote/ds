@@ -37,7 +37,7 @@ public class IndexModel : PageModel
             }
         }
 
-        double rank = (float)(text.Length - numOfLetters) / text.Length;
+        double rank = (double)(text.Length - numOfLetters) / text.Length;
 
         return rank;
     }
